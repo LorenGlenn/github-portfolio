@@ -1,11 +1,14 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Guest/Desktop/portfolio/spec/models/admin_spec.rb": [
+      "/Users/Guest/Desktop/portfolio/spec/features/api_call_pages_spec.rb": [
         1,
         null,
         1,
         1,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/Guest/Desktop/portfolio/spec/rails_helper.rb": [
@@ -599,6 +602,13 @@
         1,
         null
       ],
+      "/Users/Guest/Desktop/portfolio/spec/models/admin_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
       "/Users/Guest/Desktop/portfolio/spec/models/project_spec.rb": [
         1,
         null,
@@ -658,7 +668,7 @@
         null,
         null,
         1,
-        0,
+        1,
         null,
         null,
         null,
@@ -681,6 +691,6 @@
         null
       ]
     },
-    "timestamp": 1488561799
+    "timestamp": 1488562059
   }
 }
