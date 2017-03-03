@@ -4,7 +4,7 @@ class ProjectsController < ApplicationController
   # GET /projects
   # GET /projects.json
   def index
-    @projects = HTTParty.get("https://api.github.com/users/lorenglenn/repos?per_page=100&access_token=0f7428c7f717aefb0fe22c3005cd00a432e917e1",
+    @projects = HTTParty.get("https://api.github.com/users/lorenglenn/repos?per_page=100&access_token=" + ENV['AUTH_TOKEN'],
                             headers: {"User-Agent" => "github-prac"
                                       })
   end
