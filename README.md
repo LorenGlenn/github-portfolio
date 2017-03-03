@@ -1,24 +1,33 @@
-# README
+# _Github Api Practice_
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### By _**Loren Glenn**, 3/2/2017_
 
-Things you may want to cover:
+## Description
 
-* Ruby version
+A site to practice retrieving data from the github api.
 
-* System dependencies
+## Setup/Installation Requirements
 
-* Configuration
+* Clone this repo: `git clone https://github.com/LorenGlenn/github-portfolio`
+* Change to the repo directory: `cd github-portfolio`
+* Install gems: `bundle install`
+* Install the database: *Instructions Below*
+* In a separate CLI Run: 'rails s'
+* Visit: `localhost:3000`
 
-* Database creation
+## Database Setup Instructions
 
-* Database initialization
+* Install and start postgres
+* Run: `bundle exec rake db:create`
+* Run: `bundle exec rake db:migrate`
+* Run: `bundle exec rake db:test:prepare`
 
-* How to run the test suite
+## Technologies Used
 
-* Services (job queues, cache servers, search engines, etc.)
+*HTML, Ruby, Postgres, Rails*
 
-* Deployment instructions
+### License
 
-* ...
+*MIT License*
+
+Copyright (c) 2017 **_Loren Glenn_**
