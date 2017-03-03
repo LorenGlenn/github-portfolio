@@ -1,5 +1,4 @@
 class ProjectsController < ApplicationController
-  before_action :set_project, only: [:show, :edit, :update, :destroy]
 
   # GET /projects
   # GET /projects.json
@@ -8,15 +7,4 @@ class ProjectsController < ApplicationController
                             headers: {"User-Agent" => "github-prac"
                                       })
   end
-
-  private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_project
-      @project = Project.find(params[:id])
-    end
-
-    # Never trust parameters from the scary internet, only allow the white list through.
-    def project_params
-      params.fetch(:project, {})
-    end
 end

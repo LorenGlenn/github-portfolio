@@ -565,13 +565,6 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/portfolio/spec/factories/projects.rb": [
-        1,
-        1,
-        null,
-        null,
-        null
-      ],
       "/Users/Guest/Desktop/portfolio/config/routes.rb": [
         1,
         1,
@@ -606,17 +599,6 @@
         1,
         null,
         1,
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/portfolio/spec/models/project_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/portfolio/app/models/project.rb": [
         1,
         null
       ],
@@ -663,7 +645,6 @@
       ],
       "/Users/Guest/Desktop/portfolio/app/controllers/projects_controller.rb": [
         1,
-        1,
         null,
         null,
         null,
@@ -671,17 +652,6 @@
         1,
         null,
         null,
-        null,
-        null,
-        1,
-        null,
-        1,
-        0,
-        null,
-        null,
-        null,
-        1,
-        0,
         null,
         null
       ],
@@ -691,6 +661,6 @@
         null
       ]
     },
-    "timestamp": 1488562059
+    "timestamp": 1488563362
   }
 }

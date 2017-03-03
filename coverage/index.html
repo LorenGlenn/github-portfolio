@@ -14,27 +14,27 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2017-03-03T09:27:39-08:00">2017-03-03T09:27:39-08:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2017-03-03T09:49:22-08:00">2017-03-03T09:49:22-08:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
         <div class="file_list_container" id="AllFiles">
   <h2>
     <span class="group_name">All Files</span>
-    (<span class="covered_percent"><span class="green">98.43%</span></span>
+    (<span class="covered_percent"><span class="green">100.0%</span></span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.03
+         1.04
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
-    <b>31</b> files in total.
-    <b>127</b> relevant lines. 
-    <span class="green"><b>125</b> lines covered</span> and
-    <span class="red"><b>2</b> lines missed </span>
+    <b>28</b> files in total.
+    <b>115</b> relevant lines. 
+    <span class="green"><b>115</b> lines covered</span> and
+    <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
     <thead>
@@ -62,12 +62,12 @@
       
       <tr>
         <td class="strong"><a href="#adc35e7efc86ba30a707e1bd20e8b8b525627fae" class="src_link" title="app/controllers/projects_controller.rb">app/controllers/projects_controller.rb</a></td>
-        <td class="red strong">77.78 %</td>
-        <td>22</td>
-        <td>9</td>
-        <td>7</td>
-        <td>2</td>
-        <td>0.8</td>
+        <td class="green strong">100.0 %</td>
+        <td>10</td>
+        <td>3</td>
+        <td>3</td>
+        <td>0</td>
+        <td>1.0</td>
       </tr>
       
       <tr>
@@ -106,16 +106,6 @@
         <td>3</td>
         <td>2</td>
         <td>2</td>
-        <td>0</td>
-        <td>1.0</td>
-      </tr>
-      
-      <tr>
-        <td class="strong"><a href="#198842edb39deee45cdf18f681c6eed6c251b225" class="src_link" title="app/models/project.rb">app/models/project.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>2</td>
-        <td>1</td>
-        <td>1</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
@@ -301,16 +291,6 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#191266320f4626dd9b3b5be1834bf1c6e4922dcf" class="src_link" title="spec/factories/projects.rb">spec/factories/projects.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>5</td>
-        <td>2</td>
-        <td>2</td>
-        <td>0</td>
-        <td>1.0</td>
-      </tr>
-      
-      <tr>
         <td class="strong"><a href="#e97b1e5ce8aee8b37df1735a3f45cdaff00e7f9f" class="src_link" title="spec/features/api_call_pages_spec.rb">spec/features/api_call_pages_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>8</td>
@@ -322,16 +302,6 @@
       
       <tr>
         <td class="strong"><a href="#b19b5a567ef1d3905fa18902d71faabcefefac64" class="src_link" title="spec/models/admin_spec.rb">spec/models/admin_spec.rb</a></td>
-        <td class="green strong">100.0 %</td>
-        <td>5</td>
-        <td>3</td>
-        <td>3</td>
-        <td>0</td>
-        <td>1.0</td>
-      </tr>
-      
-      <tr>
-        <td class="strong"><a href="#ab7684456d2c4dbf177f36cbf9dfb091ea128922" class="src_link" title="spec/models/project_spec.rb">spec/models/project_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>5</td>
         <td>3</td>
@@ -415,11 +385,11 @@
         <div class="source_table" id="adc35e7efc86ba30a707e1bd20e8b8b525627fae">
   <div class="header">
     <h3>app/controllers/projects_controller.rb</h3>
-    <h4><span class="red">77.78 %</span> covered</h4>
+    <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>9</b> relevant lines. 
-      <span class="green"><b>7</b> lines covered</span> and
-      <span class="red"><b>2</b> lines missed.</span>
+      <b>3</b> relevant lines. 
+      <span class="green"><b>3</b> lines covered</span> and
+      <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
   
@@ -432,127 +402,55 @@
           <code class="ruby">class ProjectsController &lt; ApplicationController</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="2">
-          <span class="hits">1</span>
+        <li class="never" data-hits="" data-linenumber="2">
           
-          <code class="ruby">  before_action :set_project, only: [:show, :edit, :update, :destroy]</code>
+          
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="3">
           
           
-          <code class="ruby"></code>
+          <code class="ruby">  # GET /projects</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="4">
           
           
-          <code class="ruby">  # GET /projects</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="5">
-          
-          
           <code class="ruby">  # GET /projects.json</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="6">
+        <li class="covered" data-hits="1" data-linenumber="5">
           <span class="hits">1</span>
           
           <code class="ruby">  def index</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="7">
+        <li class="covered" data-hits="1" data-linenumber="6">
           <span class="hits">1</span>
           
-          <code class="ruby">    @projects = HTTParty.get(&quot;https://api.github.com/users/lorenglenn/repos?per_page=100&amp;access_token=0f7428c7f717aefb0fe22c3005cd00a432e917e1&quot;,</code>
+          <code class="ruby">    @projects = HTTParty.get(&quot;https://api.github.com/users/lorenglenn/repos?per_page=100&amp;access_token=&quot; + ENV[&#39;AUTH_TOKEN&#39;],</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="8">
+        <li class="never" data-hits="" data-linenumber="7">
           
           
           <code class="ruby">                            headers: {&quot;User-Agent&quot; =&gt; &quot;github-prac&quot;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="9">
+        <li class="never" data-hits="" data-linenumber="8">
           
           
           <code class="ruby">                                      })</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="10">
+        <li class="never" data-hits="" data-linenumber="9">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="11">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="12">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  private</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="13">
-          
-          
-          <code class="ruby">    # Use callbacks to share common setup or constraints between actions.</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="14">
-          <span class="hits">1</span>
-          
-          <code class="ruby">    def set_project</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="15">
-          
-          
-          <code class="ruby">      @project = Project.find(params[:id])</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="16">
-          
-          
-          <code class="ruby">    end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="17">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="18">
-          
-          
-          <code class="ruby">    # Never trust parameters from the scary internet, only allow the white list through.</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="19">
-          <span class="hits">1</span>
-          
-          <code class="ruby">    def project_params</code>
-        </li>
-      
-        <li class="missed" data-hits="0" data-linenumber="20">
-          
-          
-          <code class="ruby">      params.fetch(:project, {})</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="21">
-          
-          
-          <code class="ruby">    end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="22">
+        <li class="never" data-hits="" data-linenumber="10">
           
           
           <code class="ruby">end</code>
@@ -703,36 +601,6 @@
         </li>
       
         <li class="never" data-hits="" data-linenumber="3">
-          
-          
-          <code class="ruby">end</code>
-        </li>
-      
-    </ol>
-  </pre>
-</div>
-      
-        <div class="source_table" id="198842edb39deee45cdf18f681c6eed6c251b225">
-  <div class="header">
-    <h3>app/models/project.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
-    <div>
-      <b>1</b> relevant lines. 
-      <span class="green"><b>1</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
-    </div>
-  </div>
-  
-  <pre>
-    <ol>
-      
-        <li class="covered" data-hits="1" data-linenumber="1">
-          <span class="hits">1</span>
-          
-          <code class="ruby">class Project &lt; ApplicationRecord</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="2">
           
           
           <code class="ruby">end</code>
@@ -3832,54 +3700,6 @@
   </pre>
 </div>
       
-        <div class="source_table" id="191266320f4626dd9b3b5be1834bf1c6e4922dcf">
-  <div class="header">
-    <h3>spec/factories/projects.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
-    <div>
-      <b>2</b> relevant lines. 
-      <span class="green"><b>2</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
-    </div>
-  </div>
-  
-  <pre>
-    <ol>
-      
-        <li class="covered" data-hits="1" data-linenumber="1">
-          <span class="hits">1</span>
-          
-          <code class="ruby">FactoryGirl.define do</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="2">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  factory :project do</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="3">
-          
-          
-          <code class="ruby">    </code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="4">
-          
-          
-          <code class="ruby">  end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="5">
-          
-          
-          <code class="ruby">end</code>
-        </li>
-      
-    </ol>
-  </pre>
-</div>
-      
         <div class="source_table" id="e97b1e5ce8aee8b37df1735a3f45cdaff00e7f9f">
   <div class="header">
     <h3>spec/features/api_call_pages_spec.rb</h3>
@@ -3976,54 +3796,6 @@
           <span class="hits">1</span>
           
           <code class="ruby">RSpec.describe Admin, type: :model do</code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="4">
-          <span class="hits">1</span>
-          
-          <code class="ruby">  pending &quot;add some examples to (or delete) #{__FILE__}&quot;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="5">
-          
-          
-          <code class="ruby">end</code>
-        </li>
-      
-    </ol>
-  </pre>
-</div>
-      
-        <div class="source_table" id="ab7684456d2c4dbf177f36cbf9dfb091ea128922">
-  <div class="header">
-    <h3>spec/models/project_spec.rb</h3>
-    <h4><span class="green">100.0 %</span> covered</h4>
-    <div>
-      <b>3</b> relevant lines. 
-      <span class="green"><b>3</b> lines covered</span> and
-      <span class="red"><b>0</b> lines missed.</span>
-    </div>
-  </div>
-  
-  <pre>
-    <ol>
-      
-        <li class="covered" data-hits="1" data-linenumber="1">
-          <span class="hits">1</span>
-          
-          <code class="ruby">require &#39;rails_helper&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="2">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="3">
-          <span class="hits">1</span>
-          
-          <code class="ruby">RSpec.describe Project, type: :model do</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="4">
